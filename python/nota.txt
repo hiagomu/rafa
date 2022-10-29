@@ -1,0 +1,49 @@
+** - potencia pow(x,y)
+// - divisao inteira
+
+ordem de precedencia:
+1- ()
+2- **
+3- * / // %
+4- + -
+
+
+print({:.3f}) - faz com que o numero exibido tenha somente 3 pontos flutuantes
+print(), end=' ' - não quebra alinha no final do print
+\n - quebra linha
+
+import
+ex: import math - importa toda a biblioteca
+ex2: from import math sqrt - importa elemento específico
+
+ gerar numero aleatorio:
+
+random.random()
+random.random(1, 10) - limita
+random.choice(x) - uma escolha dentro de x
+random.shuffle(x) - embaralha a lista x e mosta tudo embaralhado
+
+
+fatiamento:
+
+var[9] - pega o caracter 9
+var[9:13} - pega caracter 9 ate 12
+var[9:21:2] - pega do 9 ate o 20 pulando de 2 em 2
+var[:5] = var[0:5]- pega do começo e vai ate 4
+var[15:] - vai do 15 ate o final da frase
+var[9::3] - vai do 9 ate o final pulando de 3 em 3
+len(frase) - mostra a quantidade de caracteres
+frase.count('o') - conta qunatas vezes aparece a letra o
+frase.count('o',0,13) - conta qunatas vezes aparece a letra 'o' no limite de 0 ate 12
+frase.find('deo') - acha o 'deo' e mostra onde começou
+'curso' in frase - verifica se tem 'curso' na frase
+frase.replace('python','android') - onde tiver python substitui por android
+frase.upper() - coloca tudo em maiusculo
+frase.lower() - coloca tudo em minusculo
+frase.capitalize() - so a primeira letra da frase fica maiusculo
+frase.title() - a primeira letra de cada palavra em maiusculo
+frase.strip() - remove os espaços inúteis
+frase.rstrip() - remove os espaços inúteis a direita
+frase.lstrip() - remove os espaços inúteis a esquerda
+frase.split() - transforma a fraze em varias frazes de acordo com o espaço
+'-'.join(frase) - junta os elementos em uma frase
